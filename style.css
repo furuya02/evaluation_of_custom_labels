@@ -1,0 +1,49 @@
+.startButton {
+    background-color: blue;
+    color:white;
+    height:30px;
+    width:170px
+}
+  
+.startButton:disabled {
+background: #ccc;
+cursor: not-allowed; 
+}
+  
+
+.stopButton {
+    background-color: red;
+    color:white;
+    height:30px;
+    width:170px
+}
+  
+.stopButton:disabled {
+background: #ccc;
+cursor: not-allowed; 
+}
+
+input#range_THRESH{
+  width:350px
+}
+
+div#response{
+  background-color: lightgoldenrodyellow;
+  height:600px;
+  width:350px
+}
+
+
+  canvas {
+    border: 1px solid black;
+  }
+  
+  td { 
+    padding: 10px;
+    vertical-align: top;
+  }
+  .control {
+    font: 12px 'Lucida Grande', sans-serif;
+    padding: 5px;
+  } 
+  © 2020 GitHub, Inc.
